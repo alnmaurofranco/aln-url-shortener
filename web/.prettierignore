@@ -1,0 +1,10 @@
+node_modules
+.next
+build
+dist
+yarn.lock
+package-lock.json
+public
+*.json
+tailwind.config.js
+postcss.config.js

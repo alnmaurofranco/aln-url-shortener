@@ -1,0 +1,7 @@
+**/node_modules/*
+**/.next/*
+**/out/*
+**/build/*
+**/dist/*
+tailwind.config.js
+postcss.config.js

@@ -1,0 +1,16 @@
+import React, { FC } from 'react'
+import type { AppProps } from 'next/app'
+import { Toaster } from 'react-hot-toast'
+
+import 'tailwindcss/tailwind.css'
+
+const MyApp: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Toaster position="top-right" reverseOrder={false} />
+    </>
+  )
+}
+
+export default MyApp

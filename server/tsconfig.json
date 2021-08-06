@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": [
+      "ES6"
+    ],
+    "strictPropertyInitialization": false,
+    "allowJs": false,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": "src",
+    "paths": {
+      "@config/*": ["config/*"],
+      "@infra/*": ["infra/*"],
+      "@modules/*": ["modules/*"],
+      "@prismadb/*": ["infra/prisma/*"],
+      "@validation/*": ["infra/validation/*"],
+      "@errors/*": ["infra/http/errors/*"]
+    },
+    "removeComments": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
