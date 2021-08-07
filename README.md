@@ -1,6 +1,4 @@
-<a href="https://aln-url-shortener.vercel.app/">
 <h1 align="center" style="font-weight: bold;">⚡ ALN Projeto ⚡ - URL Shortener</h1>
-</a>
 
 <p align="center">
   Encurtador de URL é usado para criar uma url curta, para compartilhar em sites, chats, e-mails e redes sociais. Como o Facebook, Instagram, Youtube, Whatsapp. 
@@ -11,10 +9,8 @@
 </p>
 
 <p align="center" style="font-style: italic;">
-Este projeto foi desenvolvido para por em praticar o uso das arquiteturas e a utilização do Prisma 2.
+Este projeto foi desenvolvido para praticar o uso do Prisma 2 ORM e a utilização das arquiteturas DDD, SOLID e Clean Architecture.
 </p> 
-
-<br>
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
