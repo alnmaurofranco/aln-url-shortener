@@ -81,6 +81,10 @@ yarn dev
 
 E pronto agora o backend estára rodando e pode ser acessado em [`localhost:3333`](http://localhost:3333)
 
+## **:memo: Licença**
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
 ---
 
 Feito com 💚 by AlanM Franco  [Visite meu Portfolio!](https://alnmaurofranco.github.io/)

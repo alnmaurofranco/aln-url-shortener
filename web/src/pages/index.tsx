@@ -5,6 +5,7 @@ import { api } from '@/services/api'
 import { toast } from 'react-hot-toast'
 import Footer from '@/components/Footer'
 import { SpinnerCircularFixed } from 'spinners-react'
+import Head from 'next/head'
 
 type TCreateURLFormData = {
   url: string
@@ -162,6 +163,9 @@ const IndexPage = (): JSX.Element => {
 
   return (
     <div className="bg-white min-h-screen flex items-center justify-center flex-col">
+      <Head>
+        <title>⚡ ALN Projeto ⚡ | URL Shortener</title>
+      </Head>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-col px-5 justify-center items-center">
           <h1 className="title-font font-bold sm:text-4xl text-4xl mb-6 text-purple-600">
