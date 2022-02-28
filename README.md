@@ -9,7 +9,7 @@
 </p>
 
 <p align="center" style="font-style: italic;">
-Este projeto foi desenvolvido para praticar o uso do Prisma 2 ORM e a utilização das arquiteturas DDD, SOLID e Clean Architecture.
+Este projeto foi desenvolvido para praticar o uso do Prisma 2 ORM e a utilização das arquiteturas SOLID e Clean Architecture.
 </p> 
 
 ## 🚀 Tecnologias
@@ -27,7 +27,7 @@ for Production
 ## 🎉 Funcionalidades
 * Funcionalidade de criar um encurtador de URL ✅
 * Redirecionamento da URL encurtada pelo NextJS utilizando Server Side Rendering ✅
-* Implementado no back-end (NodeJS + TypeScript) a arquiterua: Domain Driven Design (DDD), Clean Code e SOLID ✅
+* Implementado no back-end (NodeJS + TypeScript) as arquiteturas e métodologias: Clean Architecture, Domain Driven Design (DDD), Clean Code e SOLID ✅
 
 ## 👨🏼‍💻 Rodando o projeto
 Para rodar o projeto é necessário ter [Node.js](https://nodejs.org/) instalado em sua maquina. Caso não tenha ainda basta acessar o site do [Node.js](https://nodejs.org/)
